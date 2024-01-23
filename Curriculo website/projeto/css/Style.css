@@ -1,0 +1,358 @@
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+a:hover{
+    color: rgba(151, 150, 150, 0.582);
+
+
+
+}
+.active{
+    background-color:rgba(54, 54, 54, 0.61);
+  
+ border: solid;
+border-width: 1px;
+  
+  }
+a.text-white:hover{
+    color: grey!important; 
+    text-decoration: underline;
+
+
+
+}
+.bg-degrade {
+
+    background-image: url("../Imagens/degrade.png");
+    background-size: cover;
+}
+
+#nav-logo {
+    height: 50px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-icon {
+    height: 35px;
+    padding-top: 5px;
+
+}
+
+.bg-content {
+
+    background-image: url("../Imagens/workspace-g9511c21e8_1280.jpg");
+    background-size: cover;
+
+}
+.bg-black{
+    background-color: black;
+}
+.imgGoncalo {
+
+    width: 210px;
+    height: 210px;
+
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 450px;
+}
+.flex-container-fotos{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+
+
+
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: row;
+   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.flex-container-content{
+    display: flex;
+    flex-direction: row;
+   
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.flex-item-left {
+
+ 
+    flex: 30%;
+}
+
+.flex-item-right {
+
+   
+    flex: 70%;
+}
+.flex-item-left-footer {
+
+ 
+    flex: 33%;
+}
+.flex-item-center-footer {
+
+   
+    flex: 30%;
+}
+.flex-item-right-footer {
+    
+    flex: 33%;
+}
+
+.fotos-titulo{
+padding-top: 40px;
+padding-left: 33px;
+font-family: Arial, Helvetica, sans-serif;
+ 
+margin-bottom: 0;
+
+}
+
+
+.fotos1{
+    padding-bottom: 10px;padding-top: 40px;margin-left: 125px;margin-right: 100px
+}
+
+
+.flex4 {
+
+ 
+    flex: 25%;
+}
+.flex3 {
+
+ 
+    flex: 25%;
+}
+.flex2 {
+
+ 
+    flex: 25%;
+}
+.flex1 {
+
+ 
+    flex: 25%;
+}
+
+
+.flex-item-left-content {
+    flex: 30%;
+    border-style:solid;
+    padding: 20px 0 0 0;
+    margin:0px 0px 0px 50px
+}
+.flex-item-left-content2 {
+    flex: 30%;
+    border-style:solid;
+    padding: 32px 0 0 0;
+    margin:0px 0px 0px 50px
+}
+.flex-item-center-content {
+    flex: 30%;
+    border-style:solid;
+    margin:0px 0px 0px 50px
+}
+.flex-item-center-content2 {
+    flex: 30%;
+    border-style:solid;
+    margin:0px 0px 0px 50px
+}
+.flex-item-right-content {
+
+    flex: 30%;
+    border-style:solid;
+    margin:0px 50px 0px 50px
+
+}
+
+.bg-white{
+
+    background-color: white;
+}
+.deg{
+  
+}
+.content-formacao{
+    padding-top:50px;
+    padding-bottom:50px
+}
+
+.fa {  
+ padding: 10px;
+  }  
+
+  h4{
+padding-top: 30px;
+
+  }
+
+  i>span{
+padding-left: 10px;
+
+  }
+  i>a{
+    padding-left: 10px;
+    padding-top: 0;
+      }
+    #linkedin{
+        padding-left: 10px;
+        padding-top: 0; 
+    }
+    .mediaimage{
+
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+@media (max-width:800px) {
+    .flex-container-footer {
+        flex-direction: column;
+        margin-top: 570px;
+      
+
+    }
+    @media (max-width:800px) {
+       .deg{
+      background-color: black;
+        }
+    }   
+}
+
+@media (max-width:800px) {
+    .content-formacao {
+  padding-bottom: 0;
+    margin-bottom: 0;
+
+    }
+}
+@media (max-width:800px) {
+    .flex-container-content {
+        flex-direction: column;
+        margin-top: 100px;
+      
+
+    }}
+    @media (max-width:800px) {
+        .flex-item-left-content {
+            flex: 30%;
+            border-style:solid;
+            padding: 32px 0 0 0;
+            margin:0px  90px 50px 90px
+        }
+        }
+        @media (max-width:800px) {
+            .flex-item-left-content2 {
+                flex: 30%;
+                border-style:solid;
+                padding: 32px 0 0 0;
+                margin:0px  90px 0px 90px
+            }
+            }
+
+        @media (max-width:800px) {
+            .flex-item-center-content {
+                flex: 30%;
+                border-style:solid;
+                padding: 32px 0 0 0;
+                margin:0px  90px 50px 90px
+            }
+            }
+            @media (max-width:800px) {
+                .flex-item-center-content2 {
+                    flex: 30%;
+                    border-style:solid;
+                    padding: 32px 0 0 0;
+                    margin:50px  90px 0px 90px
+                }
+                }
+         
+               
+   @media (max-width:800px) {
+                .flex-item-right-content {
+                    flex: 30%;
+                    border-style:solid;
+                    padding: 32px 0 0 0;
+                    margin:0px  90px 0px 90px
+                }
+                }
+                @media (max-width:800px) {
+                    .mediaimage{
+                        width: 150px !important;
+                    }
+                    }
+
+                    @media (max-width:800px) {
+                        .flex-container-fotos {
+                            flex-direction: column;
+                      margin-left: 75px;
+                      padding-left: 0;
+                           
+                        }
+                    }
+                    @media (max-width:800px) {
+                        .fotos-titulo {
+                           margin-right: 55px;
+                    
+                           
+                        }
+                    }
